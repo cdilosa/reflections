@@ -1,0 +1,10 @@
+R8 - What happens when you initialize a repository? Why do you need it?
+	 
+	 I don't know. It didn't seem to work the same. It created the repository, but
+	 there was no initial commit, and the only file in the directory was flagged as
+	 not being tracked.
+	 
+	 Commands
+	 git init	// create git repository in current directory
+	 ls -a		// show hidden files in directory
+	 git status	// show the status of a directory
