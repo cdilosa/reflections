@@ -1,0 +1,72 @@
+I haven't used any tools such as FC or diff before to compare file contents.
+I am happy to have learned of such tools, since I will be able to make 
+good use of them.
+The interface is unfamiliar but I think I can figure it out.
+
+I like using the Bash shell better than the Windows command line, since it includes
+more commands and they're easier to remember.
+
+Also, this alias thing is pretty neat.
+
+R2 - How could having easy access to the entire history of a file make you a more
+     efficient programmer in the long term?
+	 
+	 If you've made a mistake that has caused your program to crash or has introduced
+	 errors, then having access to earlier versions will help you restore the program
+	 to a working state. You can use tools to compare the code, rather than having to
+	 search for the errors yourself.
+
+R3 - What do you think are the pros and cons of manually choosing when to create a
+	 commit, like you do in Git, vs having versions automatically saved, like Google
+	 Docs does?
+	 
+	 Pro
+	 You can decide when it is an appropriate and logical time to make your commits
+	 so that your code doesn't get truncated or left in an unfinished state after a
+	 commit.
+	 
+	 Con
+	 If you forget to commit for a long time, you may have made too many changes for
+	 the differences between the versions to be easily traceable if something goes
+     wrong.
+
+R4 - Why do you think some version control systems, like Git, allow saving multiple
+	 files in one commit, while others, like Google Docs, treat each file seaparately?
+	 
+	 Since Git is used for code, and code is often split amongst several files, it
+	 makes sense for Git to track changes in all of these related files together in
+	 a single commit. For Google Docs, it is more likely that all related changes are
+	 captured in a single document, so it only needs to keep track of that one document
+	 in a commit.
+	 
+	 
+	 git --version // version of git
+	 git clone {URL} // Clone a whole repository
+	 git config --global color.ui auto // add colour to git interface
+	 git log // Show a list of recent commits with info about them
+	 git diff {commitID1} {commitID2} // Compare two versions; can enter
+										 first four or more chars
+
+R5 - How can you use the commands git log and git diff to view the history of files?
+	 You can use git log to view the different commits and use git diff to compare two 
+	 versions.
+	 
+R6 - How might using version control make you more confident to make changes that could
+	 break something?
+	 
+	 Knowing that there is a working version backed up gives you the freedom to make
+	 possibly risky or experimental changes to your code. 										 
+										 
+R7 - What do you want to try using Git for?
+	 To keep track of school related coding projects and demos, and eventually personal
+	 projects and online courses.
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
