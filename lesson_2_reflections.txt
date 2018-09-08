@@ -4,7 +4,19 @@ R8 - What happens when you initialize a repository? Why do you need it?
 	 there was no initial commit, and the only file in the directory was flagged as
 	 not being tracked.
 	 
-	 Commands
+R9 - How is the staging are different from the working directory and the repository?
+	 What value do you think it offers?
+	 
+	 The staging area is where files that are going to be committed are held. It is
+	 an intermediate area between the repository and the working directory. The staging
+	 area allows you to "bundle" the files that you want to put in a single commit.
+
+
+	 
+Commands
+
 	 git init	// create git repository in current directory
 	 ls -a		// show hidden files in directory
 	 git status	// show the status of a directory
+	 git add {file name} // Add the file from the working directory to the staging area
+	 git commit {file name} // Commit the staged file(s)
