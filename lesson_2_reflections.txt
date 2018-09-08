@@ -16,10 +16,20 @@ R10- How can you use the staging area to make sure you have one commit per logic
 	 You can run git diff --staged to make sure that the commit you are about to perform
 	 contains one logical change between the staged version of the file(s) and the ones
 	 in the previous commit.
+	 
+R11- What are some situations when branches would be helpful in keeping your history organized?
+	 How would branches help?
+
+	 If you want to make experimental changes to your file(s) but want to keep a working "master"
+	 version intact, you could make these changes in separate branches.
 
 
 	 
-Commands
+								+------------+
+								|            | 
+	----------------------------|  Commands  |----------------------------
+								|            | 
+								+------------+
 
 	 git init	// create git repository in current directory
 	 ls -a		// show hidden files in directory
@@ -30,3 +40,6 @@ Commands
 	 git diff --staged // will show the difference between the staged file(s) and those in the last commit
 	 git checkout master // ??? something to do with HEADLESS state?
 	 git reset --hard // get rid of any uncommitted changes. Use with caution!!!
+	 git branch // see which branch you are currently working in
+	 git branch {branch name} // will create a new branch with this name if it doesn't exist
+	 git checkout {branch) // switch to this branch
