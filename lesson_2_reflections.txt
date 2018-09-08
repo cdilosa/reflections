@@ -11,6 +11,12 @@ R9 - How is the staging are different from the working directory and the reposit
 	 an intermediate area between the repository and the working directory. The staging
 	 area allows you to "bundle" the files that you want to put in a single commit.
 
+R10- How can you use the staging area to make sure you have one commit per logical change?
+	 
+	 You can run git diff --staged to make sure that the commit you are about to perform
+	 contains one logical change between the staged version of the file(s) and the ones
+	 in the previous commit.
+
 
 	 
 Commands
@@ -20,3 +26,7 @@ Commands
 	 git status	// show the status of a directory
 	 git add {file name} // Add the file from the working directory to the staging area
 	 git commit {file name} // Commit the staged file(s)
+	 git diff	// with no args, will show the difference between the working dir and staging area files
+	 git diff --staged // will show the difference between the staged file(s) and those in the last commit
+	 git checkout master // ??? something to do with HEADLESS state?
+	 git reset --hard // get rid of any uncommitted changes. Use with caution!!!
