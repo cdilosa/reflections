@@ -22,6 +22,11 @@ R11- What are some situations when branches would be helpful in keeping your his
 
 	 If you want to make experimental changes to your file(s) but want to keep a working "master"
 	 version intact, you could make these changes in separate branches.
+	 
+R12- How do the diagrams help you visualize the branch structure?
+	 
+	 A visual representation of the branches off of master make it easier to understand where all
+	 the changes have been made, and which ones "overlap" and which ones were added separately.
 
 
 	 
@@ -43,3 +48,6 @@ R11- What are some situations when branches would be helpful in keeping your his
 	 git branch // see which branch you are currently working in
 	 git branch {branch name} // will create a new branch with this name if it doesn't exist
 	 git checkout {branch) // switch to this branch
+	 git log --graph --oneline {first branch} {other branch} // Graphic visualization of branches
+	 git log 	// list the commits
+	 
