@@ -32,6 +32,13 @@ R13- What os the resilt of merging two branches together? Why do we represent it
 	 way we do?
 	 
 	 I don't know beause it didn't work.
+	 
+R14- What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	 Automatic merging can make merges easier and faster, but cannot handle conflicts. Manual merges
+	 take a lot more time and can be prone to mistakes, but conflicts are more likely to be resolved.
+	 
+	 
 
 	 
 								+------------+
@@ -56,4 +63,7 @@ R13- What os the resilt of merging two branches together? Why do we represent it
 	 git log 	// list the commits
 	 git merge {branch 1} {branch 2} // Merge branches
 	 git merge --abort // SHUT IT DOWN
+	 
+	 When there is a conflict, look in the file, resolve the conflicts, stage the file, run
+	 git status, then commit
 	 
