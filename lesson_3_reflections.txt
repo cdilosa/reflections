@@ -9,4 +9,11 @@ R16 - Why might you want to always pull changes manually rather than having Git 
 	  and these changes could interfere with your local work. Pulling changes manually
 	  allows you to pull what you want when you want from the remote to your local repo.
 	  
+R17 - Describe the differences between forks, clones, and branches. When would you use one
+	  instead of another?
+	
+	  Forks are created on Git, not locally
+	  Branches are created locally
+	  Clones are created locally and on Git??
+	  
 	  
