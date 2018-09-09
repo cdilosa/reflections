@@ -28,6 +28,10 @@ R12- How do the diagrams help you visualize the branch structure?
 	 A visual representation of the branches off of master make it easier to understand where all
 	 the changes have been made, and which ones "overlap" and which ones were added separately.
 
+R13- What os the resilt of merging two branches together? Why do we represent it in the diagram the
+	 way we do?
+	 
+	 I don't know beause it didn't work.
 
 	 
 								+------------+
@@ -50,4 +54,6 @@ R12- How do the diagrams help you visualize the branch structure?
 	 git checkout {branch) // switch to this branch
 	 git log --graph --oneline {first branch} {other branch} // Graphic visualization of branches
 	 git log 	// list the commits
+	 git merge {branch 1} {branch 2} // Merge branches
+	 git merge --abort // SHUT IT DOWN
 	 
