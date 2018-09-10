@@ -20,6 +20,13 @@ R18 - What is the benefit of having a copy of the last known state of the remote
 	  
 	  So that when you want to merge branches, you will know how they differ
 	  
+R19 - How would you collaborate without using Git or GitHub? What would be easier, and what would
+	  be harder?
+	  
+	  Collaborate in person; share code through email or use a tool like Google Docs to edit code 
+	  together and then have someone test it. It would be harder to get different things done
+	  concurrently, or to have multiple people working on the same problem.
+	  
 	  
 	  
 	  
